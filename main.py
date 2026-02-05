@@ -544,7 +544,7 @@ async def main():
         return
     
     logger.info("🤖 MindNotes AI Bot запускается...")
-    logger.info("✅ Бот успешно запущен!")s
+    logger.info("✅ Бот успешно запущен!")
     
     try:
         await dp.start_polling(bot)
